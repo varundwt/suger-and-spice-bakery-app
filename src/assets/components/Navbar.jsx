@@ -41,7 +41,7 @@ export const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl px-0"><img  className="w-32 md:w-48" src={SS_Logo} alt=""/></a>
+          <a className="btn btn-ghost text-xl px-1"><img  className="w-32 md:w-48" src={SS_Logo} alt=""/></a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
