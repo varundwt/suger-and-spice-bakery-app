@@ -3,7 +3,7 @@ import SS_Logo from "/images/s_and_s_logo.png"
 export const Navbar = () => {
   return (
     <>
-      <div className="navbar bg-neutral text-neutral-content">
+      <div className="navbar bg-neutral text-neutral-content bg-black">
         <div className="navbar-start">
           <div className="dropdown">
             <div
@@ -57,7 +57,7 @@ export const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Contact Us</a>
+          <a className="btn bg-orange-300 text-black hover:bg-amber-600 hover:text-white">Contact Us</a>
         </div>
       </div>
     </>
