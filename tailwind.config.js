@@ -17,10 +17,11 @@ export default {
       },
     },
     colors:{
-      'purpleone':'#F7EFE5',
+      'purpleone':'#250026',
       'purpletwo':'#E2BFD9',
       'purplethree':'#C8A1E0',
-      'purplefour':'#674188'
+      'purplefour':'#674188',
+      'purplelight':'#F7EFE5'
     }
   },
   variants: {},

@@ -28,16 +28,16 @@ export const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content  bg-purpleone text-purplefour rounded-box z-[1] mt-3 w-52 p-2 shadow "
+              className="menu menu-sm dropdown-content  bg-purpleone text-purplelight rounded-box z-[1] mt-3 w-52 p-2 shadow "
             >
               <li className="hover:bg-black hover:rounded-md">
-                <a className="hover:bg-purplefour hover:rounded-md hover:text-purpleone">Home</a>
+                <a className="hover:bg-purpletwo hover:rounded-md hover:text-purpleone">Home</a>
               </li>
               <li className="hover:bg-black hover:rounded-md">
-                <a className="hover:bg-purplefour hover:rounded-md hover:text-purpleone">Products</a>
+                <a className="hover:bg-purpletwo hover:rounded-md hover:text-purpleone">Products</a>
               </li>
               <li className="hover:bg-black hover:rounded-md">
-                <a className="hover:bg-purplefour hover:rounded-md hover:text-purpleone">About</a>
+                <a className="hover:bg-purpletwo hover:rounded-md hover:text-purpleone">About</a>
               </li>
             </ul>
           </div>
@@ -45,19 +45,19 @@ export const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li className="hover:bg-purplefour hover:rounded-md hover:text-purpleone">
+            <li className=" text-purplelight hover:bg-purpletwo hover:rounded-xl hover:text-purpleone">
               <a>Home</a>
             </li>
-            <li className="hover:bg-purplefour hover:rounded-md hover:text-purpleone">
+            <li className="text-purplelight hover:bg-purpletwo hover:rounded-xl hover:text-purpleone">
               <a>Products</a>
             </li>
-            <li className="hover:bg-purplefour hover:rounded-md hover:text-purpleone">
+            <li className="text-purplelight hover:bg-purpletwo hover:rounded-xl hover:text-purpleone">
               <a>About</a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-purplethree text-purplefour hover:bg-purplefour hover:text-purpleone border-none">Contact Us</a>
+          <a className="btn bg-purpleone text-purplelight hover:bg-purplelight hover:text-purpleone border-purplelight">Contact Us</a>
         </div>
       </div>
     </>
