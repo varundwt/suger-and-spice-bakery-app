@@ -3,13 +3,13 @@ import SS_Logo from "/images/s_and_s_logo.png"
 export const Navbar = () => {
   return (
     <>
-      <div className="navbar bg-neutral text-neutral-content bg-black">
+      <div className="navbar bg-purpleone text-purplefour">
         <div className="navbar-start">
           <div className="dropdown">
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost lg:hidden hover:bg-black"
+              className="btn btn-ghost lg:hidden hover:bg-white"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -28,16 +28,16 @@ export const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-neutral text-neutral-content rounded-box z-[1] mt-3 w-52 p-2 shadow "
+              className="menu menu-sm dropdown-content  bg-purpleone text-purplefour rounded-box z-[1] mt-3 w-52 p-2 shadow "
             >
               <li className="hover:bg-black hover:rounded-md">
-                <a>Home</a>
+                <a className="hover:bg-purplefour hover:rounded-md hover:text-purpleone">Home</a>
               </li>
               <li className="hover:bg-black hover:rounded-md">
-                <a>Products</a>
+                <a className="hover:bg-purplefour hover:rounded-md hover:text-purpleone">Products</a>
               </li>
               <li className="hover:bg-black hover:rounded-md">
-                <a>About</a>
+                <a className="hover:bg-purplefour hover:rounded-md hover:text-purpleone">About</a>
               </li>
             </ul>
           </div>
@@ -45,19 +45,19 @@ export const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li className="hover:bg-black hover:rounded-md">
+            <li className="hover:bg-purplefour hover:rounded-md hover:text-purpleone">
               <a>Home</a>
             </li>
-            <li className="hover:bg-black hover:rounded-md">
+            <li className="hover:bg-purplefour hover:rounded-md hover:text-purpleone">
               <a>Products</a>
             </li>
-            <li className="hover:bg-black hover:rounded-md">
+            <li className="hover:bg-purplefour hover:rounded-md hover:text-purpleone">
               <a>About</a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-orange-300 text-black hover:bg-amber-600 hover:text-white">Contact Us</a>
+          <a className="btn bg-purplethree text-purplefour hover:bg-purplefour hover:text-purpleone border-none">Contact Us</a>
         </div>
       </div>
     </>

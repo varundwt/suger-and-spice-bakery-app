@@ -16,14 +16,17 @@ export default {
         scroll: 'scroll 20s linear infinite',
       },
     },
+    colors:{
+      'purpleone':'#F7EFE5',
+      'purpletwo':'#E2BFD9',
+      'purplethree':'#C8A1E0',
+      'purplefour':'#674188'
+    }
   },
   variants: {},
   plugins: [
     require('daisyui'),
   ],
-  daisyui: {
-    themes: ["luxury"],
-    
-  },
+  
 }
 
