@@ -28,8 +28,7 @@ export default {
       'purplethree':'#C8A1E0',
       'purplefour':'#674188',
       'purplefive':'#A76A92',
-      'purplelight':'#F7EFE5'
-      
+      'purplelight':'#F7EFE5'      
     }
   },
   variants: {},
