@@ -2,8 +2,8 @@ export const CelebrateSO = () => {
   return (
     <>
         <div
-        className="hero max-h-md" style={{
-          backgroundColor: "#250026",
+        className="hero max-h-md font-mono" style={{
+          backgroundColor: "#000000",
         }}        
       >
         <div className="hero-overlay"></div>

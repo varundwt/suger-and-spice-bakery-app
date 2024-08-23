@@ -3,7 +3,7 @@ import SS_Logo from "/images/s_and_s_logo.png"
 export const Navbar = () => {
   return (
     <>
-      <div className="navbar bg-purpleone text-purplefour">
+      <div className="navbar bg-base-100 font-DM1 ">
         <div className="navbar-start">
           <div className="dropdown">
             <div
@@ -28,36 +28,36 @@ export const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content  bg-purpleone text-purplelight rounded-box z-[1] mt-3 w-52 p-2 shadow "
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow "
             >
               <li className="hover:bg-black hover:rounded-md">
-                <a className="hover:bg-purpletwo hover:rounded-md hover:text-purpleone">Home</a>
+                <a className="text-purplefive hover:bg-purplefive hover:rounded-md hover:text-purplelight">Home</a>
               </li>
               <li className="hover:bg-black hover:rounded-md">
-                <a className="hover:bg-purpletwo hover:rounded-md hover:text-purpleone">Products</a>
+                <a className= "text-purplefive hover:bg-purplefive hover:rounded-md hover:text-purplelight">Products</a>
               </li>
               <li className="hover:bg-black hover:rounded-md">
-                <a className="hover:bg-purpletwo hover:rounded-md hover:text-purpleone">About</a>
+                <a className="text-purplefive hover:bg-purplefive hover:rounded-md hover:text-purplelight">About</a>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl px-1"><img  className="w-32 md:w-48" src={SS_Logo} alt=""/></a>
+          <a className="btn btn-ghost text-xl px-2"><img  className="w-32 md:w-48" src={SS_Logo} alt=""/></a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li className=" text-purplelight hover:bg-purpletwo hover:rounded-xl hover:text-purpleone">
+          <ul className="menu menu-horizontal px-1 tracking-wide">
+            <li className="text-md text-purplefive hover:bg-purplefive hover:rounded-xl hover:text-purplelight ">
               <a>Home</a>
             </li>
-            <li className="text-purplelight hover:bg-purpletwo hover:rounded-xl hover:text-purpleone">
+            <li className="text-purplefive hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
               <a>Products</a>
             </li>
-            <li className="text-purplelight hover:bg-purpletwo hover:rounded-xl hover:text-purpleone">
+            <li className="text-purplefive hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
               <a>About</a>
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
-          <a className="btn bg-purpleone text-purplelight hover:bg-purplelight hover:text-purpleone border-purplelight">Contact Us</a>
+        <div className="navbar-end font-DM3">
+          <a className="btn bg-purplefive text-purplelight hover:bg-purplefive hover:text-purplelight hover:border-1 hover:border-purplefive">Contact Us</a>
         </div>
       </div>
     </>
