@@ -1,4 +1,5 @@
-import SS_Logo from "/images/s_and_s_logo.png"
+import SS_Logo from "/images/s_and_s_logo.png";
+import { Link, Outlet } from "react-router-dom";
 
 export const Navbar = () => {
   return (
@@ -29,37 +30,61 @@ export const Navbar = () => {
             <ul
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow "
-            >
+            ><Link to="/">
               <li className="hover:bg-black hover:rounded-md">
-                <a className="text-purplefive hover:bg-purplefive hover:rounded-md hover:text-purplelight">Home</a>
+                <a className="text-purplefive hover:bg-purplefive hover:rounded-md hover:text-purplelight">
+                  Home
+                </a>
               </li>
+              </Link>
+              <Link to="/products">
               <li className="hover:bg-black hover:rounded-md">
-                <a className= "text-purplefive hover:bg-purplefive hover:rounded-md hover:text-purplelight">Products</a>
+                <a className="text-purplefive hover:bg-purplefive hover:rounded-md hover:text-purplelight">
+                  Products
+                </a>
               </li>
+              </Link>
+              <Link to="/about">
               <li className="hover:bg-black hover:rounded-md">
-                <a className="text-purplefive hover:bg-purplefive hover:rounded-md hover:text-purplelight">About</a>
+                <a className="text-purplefive hover:bg-purplefive hover:rounded-md hover:text-purplelight">
+                  About
+                </a>
               </li>
+              </Link>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl px-2"><img  className="w-32 md:w-48" src={SS_Logo} alt=""/></a>
+          <a className="btn btn-ghost text-xl px-2">
+            <img className="w-32 md:w-48" src={SS_Logo} alt="" />
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 tracking-wide">
+            <Link to="/">            
             <li className="text-md text-purplefive hover:bg-purplefive hover:rounded-xl hover:text-purplelight ">
               <a>Home</a>
             </li>
+            </Link>
+            <Link to="/products">
             <li className="text-purplefive hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
               <a>Products</a>
             </li>
+            </Link>
+            <Link to="/about">
             <li className="text-purplefive hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
               <a>About</a>
             </li>
+            </Link>
           </ul>
         </div>
         <div className="navbar-end font-DM3">
-          <a className="btn bg-purplefive text-purplelight hover:bg-purplefive hover:text-purplelight hover:border-1 hover:border-purplefive">Contact Us</a>
+        <Link to="/contact">
+          <a className="btn bg-purplefive text-purplelight hover:bg-purplefive hover:text-purplelight hover:border-1 hover:border-purplefive">
+            Contact Us
+          </a>
+          </Link>
         </div>
       </div>
+      <Outlet/>
     </>
   );
 };
