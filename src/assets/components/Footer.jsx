@@ -7,7 +7,7 @@ export const Footer = () => {
     <p>
       Sugar & Spice <br/>Nearby Trimurti Chowk, Dwarahat - 263653
       <br />
-      Serving smiles since 1992
+      Serving smiles since 2013
     </p>
   </aside>
   <nav>
