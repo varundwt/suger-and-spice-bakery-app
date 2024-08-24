@@ -1,13 +1,13 @@
 export const Footer = () => {
   return (
     <>
-        <footer className="footer bg-neutral text-neutral-content p-10">
+        <footer className="footer bg-neutral text-neutral-content p-10 font-DM1">
   <aside>
     <img src="/images/ss_logo.png" className="h-20"/>
     <p>
       Sugar & Spice <br/>Nearby Trimurti Chowk, Dwarahat - 263653
       <br />
-      Serving smiles since 2013
+      Serving smiles since 2012
     </p>
   </aside>
   <nav>
