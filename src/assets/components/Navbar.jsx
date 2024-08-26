@@ -6,7 +6,7 @@ export const Navbar = () => {
     <>
       <div className="navbar bg-base-100 font-DM1 ">
         <div className="navbar-start">
-          <div className="dropdown">
+          <div className="dropdown font-bold">
             <div
               tabIndex={0}
               role="button"
@@ -32,21 +32,21 @@ export const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow "
             ><Link to="/">
               <li className="hover:bg-black hover:rounded-md">
-                <a className="text-purplefive hover:bg-purplefive hover:rounded-md hover:text-purplelight">
+                <a className="text-purpleone hover:bg-purpleone hover:rounded-md hover:text-purplelight">
                   Home
                 </a>
               </li>
               </Link>
               <Link to="/products">
               <li className="hover:bg-black hover:rounded-md">
-                <a className="text-purplefive hover:bg-purplefive hover:rounded-md hover:text-purplelight">
+                <a className="text-purpleone hover:bg-purpleone hover:rounded-md hover:text-purplelight">
                   Products
                 </a>
               </li>
               </Link>
               <Link to="/about">
               <li className="hover:bg-black hover:rounded-md">
-                <a className="text-purplefive hover:bg-purplefive hover:rounded-md hover:text-purplelight">
+                <a className="text-purpleone hover:bg-purpleone hover:rounded-md hover:text-purplelight">
                   About
                 </a>
               </li>
@@ -57,20 +57,20 @@ export const Navbar = () => {
             <img className="w-32 md:w-48" src={SS_Logo} alt="" />
           </a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center hidden lg:flex font-bold">
           <ul className="menu menu-horizontal px-1 tracking-wide">
             <Link to="/">            
-            <li className="text-md text-purplefive hover:bg-purplefive hover:rounded-xl hover:text-purplelight ">
+            <li className="text-md text-purpleone hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
               <a>Home</a>
             </li>
             </Link>
             <Link to="/products">
-            <li className="text-purplefive hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
+            <li className="text-purpleone hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
               <a>Products</a>
             </li>
             </Link>
             <Link to="/about">
-            <li className="text-purplefive hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
+            <li className="text-purpleone hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
               <a>About</a>
             </li>
             </Link>
@@ -78,7 +78,7 @@ export const Navbar = () => {
         </div>
         <div className="navbar-end font-DM3">
         <Link to="/contact">
-          <a className="btn bg-purplefive text-purplelight hover:bg-purplefive hover:text-purplelight hover:border-1 hover:border-purplefive">
+          <a className="btn tracking-wide hover:font-medium font-DM1 hover:bg-purpleone hover:text-purplelight bg-purplelight text-purpleone border-purplethree">
             Contact Us
           </a>
           </Link>
