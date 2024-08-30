@@ -30,26 +30,27 @@ export const Navbar = () => {
             <ul
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow "
-            ><Link to="/">
-              <li className="hover:bg-black hover:rounded-md">
-                <a className="text-purpleone hover:bg-purpleone hover:rounded-md hover:text-purplelight">
-                  Home
-                </a>
-              </li>
+            >
+              <Link to="/">
+                <li className="hover:bg-black hover:rounded-md">
+                  <a className="text-purpleone hover:bg-purpleone hover:rounded-md hover:text-purplelight">
+                    Home
+                  </a>
+                </li>
               </Link>
               <Link to="/products">
-              <li className="hover:bg-black hover:rounded-md">
-                <a className="text-purpleone hover:bg-purpleone hover:rounded-md hover:text-purplelight">
-                  Products
-                </a>
-              </li>
+                <li className="hover:bg-black hover:rounded-md">
+                  <a className="text-purpleone hover:bg-purpleone hover:rounded-md hover:text-purplelight">
+                    Products
+                  </a>
+                </li>
               </Link>
               <Link to="/about">
-              <li className="hover:bg-black hover:rounded-md">
-                <a className="text-purpleone hover:bg-purpleone hover:rounded-md hover:text-purplelight">
-                  About
-                </a>
-              </li>
+                <li className="hover:bg-black hover:rounded-md">
+                  <a className="text-purpleone hover:bg-purpleone hover:rounded-md hover:text-purplelight">
+                    About
+                  </a>
+                </li>
               </Link>
             </ul>
           </div>
@@ -59,32 +60,32 @@ export const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex font-bold">
           <ul className="menu menu-horizontal px-1 tracking-wide">
-            <Link to="/">            
-            <li className="text-md text-purpleone hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
-              <a>Home</a>
-            </li>
+            <Link to="/">
+              <li className="text-md text-purpleone hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
+                <a>Home</a>
+              </li>
             </Link>
             <Link to="/products">
-            <li className="text-purpleone hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
-              <a>Products</a>
-            </li>
+              <li className="text-purpleone hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
+                <a>Products</a>
+              </li>
             </Link>
             <Link to="/about">
-            <li className="text-purpleone hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
-              <a>About</a>
-            </li>
+              <li className="text-purpleone hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
+                <a>About</a>
+              </li>
             </Link>
           </ul>
         </div>
         <div className="navbar-end font-DM3">
-        <Link to="/contact">
-          <a className="btn tracking-wide hover:font-medium font-DM1 hover:bg-purpleone hover:text-purplelight bg-purplelight text-purpleone border-purplethree">
-            Contact Us
-          </a>
+          <Link to="/contact">
+            <a className="btn tracking-wide hover:font-medium font-DM1 hover:bg-purpleone hover:text-purplelight bg-purplelight text-purpleone border-purplethree">
+              Contact Us
+            </a>
           </Link>
         </div>
       </div>
-      <Outlet/>
+      <Outlet />
     </>
   );
 };

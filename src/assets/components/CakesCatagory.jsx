@@ -1,5 +1,3 @@
 export const CakesCatagory = () => {
-  return (
-    <div>CakesCatagory</div>
-  )
-}
+  return <div>CakesCatagory</div>;
+};

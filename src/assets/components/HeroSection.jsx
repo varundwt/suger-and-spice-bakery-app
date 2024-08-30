@@ -29,9 +29,7 @@ export const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div
-        className="hero max-h-md font-DM1"        
-      >
+      <div className="hero max-h-md font-DM1">
         <div className="hero-overlay bg-base-100"></div>
         <div className="hero-content text-center py-20">
           <div className="max-w-md md:max-w-2xl">
@@ -75,39 +73,28 @@ export const HeroSection = () => {
         </div>
       </div>
       <div className="px-1 pt-0 lg:px-20 font-DM1 py-20">
-      <h1 className="mb-5 text-3xl md:text-4xl font-bold tracking-wide text-center">
-      Our Space View
-            </h1>
-            <p className="mb-5 text-center text-sm md:text-md tracking-wide">
-            Explore the design and ambiance of our space through this curated collection of images.
-            </p>
+        <h1 className="mb-5 text-3xl md:text-4xl font-bold tracking-wide text-center">
+          Our Space View
+        </h1>
+        <p className="mb-5 text-center text-sm md:text-md tracking-wide">
+          Explore the design and ambiance of our space through this curated
+          collection of images.
+        </p>
         <div className="mx-2 md:mx-32 lg:mx-54 xl:mx-72 rounded-lg mt-8">
-        <div className="carousel w-full">
-          <div id="item1" className="carousel-item w-full">
-            <img
-              src="/images/slide_1.jpeg"
-              className="w-full rounded-2xl"
-            />
+          <div className="carousel w-full">
+            <div id="item1" className="carousel-item w-full">
+              <img src="/images/slide_1.jpeg" className="w-full rounded-2xl" />
+            </div>
+            <div id="item2" className="carousel-item w-full">
+              <img src="/images/slide_2.jpeg" className="w-full rounded-2xl" />
+            </div>
+            <div id="item3" className="carousel-item w-full">
+              <img src="/images/slide_3.jpeg" className="w-full rounded-2xl" />
+            </div>
+            <div id="item4" className="carousel-item w-full">
+              <img src="/images/slide_4.jpeg" className="w-full rounded-2xl" />
+            </div>
           </div>
-          <div id="item2" className="carousel-item w-full">
-            <img
-              src="/images/slide_2.jpeg"
-              className="w-full rounded-2xl"
-            />
-          </div>
-          <div id="item3" className="carousel-item w-full">
-            <img
-              src="/images/slide_3.jpeg"
-              className="w-full rounded-2xl"
-            />
-          </div>
-          <div id="item4" className="carousel-item w-full">
-            <img
-              src="/images/slide_4.jpeg"
-              className="w-full rounded-2xl"
-            />
-          </div>
-        </div>
         </div>
         <div className="flex w-full justify-center gap-2 py-2">
           <a href="#item1" className="btn btn-xs">
