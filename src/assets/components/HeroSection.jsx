@@ -21,7 +21,7 @@ export const HeroSection = () => {
               your moments truly special. Join us in creating memories that last
               a lifetime.
             </p>
-            <Link to="/cakescatagory">
+            <Link to="/products/cakescatagory">
               <button className="btn tracking-wide hover:font-medium font-semibold hover:bg-purpleone hover:text-purplelight bg-purplelight text-purpleone border-none">
                 Find Your Cake
               </button>
