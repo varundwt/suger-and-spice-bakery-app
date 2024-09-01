@@ -48,11 +48,12 @@ const productItems = [
 export const Products = () => {
   return (
     <>
-      <div className="font-DM1 m-1 md:m-4 lg:m-10 xl:mx-8 ">
+      <div className="font-DM1 p-1 md:p-4 lg:p-10 xl:px-8 bg-three">
         <div
           className="text-xl p-3 rounded-lg md:p-8 md:text-2xl m-1 lg:mx-5 md:mx-7"
           style={{
-            backgroundImage: "url(/images/banner.jpg)",
+            backgroundColor: "#481E14",
+            color: "#FFFDF4",
           }}
         >
           <h1 className="font-bold tracking-wide py-3 md:py-0 text-purplelight">
@@ -64,7 +65,7 @@ export const Products = () => {
             <>
               <Link to={item.buttonLink} className="">
                 <div
-                  className="card glass md:w-72 lg:w-72 lg:mx-0 xl:w-96 m-1 hover:bg-purplefive"
+                  className="card glass md:w-72 lg:w-72 lg:mx-0 xl:w-96 m-1 text-four bg-five md:bg-three md:text-five hover:bg-five hover:text-four transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 "
                   key={i}
                 >
                   <figure>
@@ -79,7 +80,7 @@ export const Products = () => {
                     <p>{item.description}</p>
                     <div className="card-actions justify-end">
                       <Link to={item.buttonLink}>
-                        <button className="btn btn-primary">
+                        <button className="btn tracking-wide hover:font-medium font-DM1 hover:bg-five hover:text-four bg-four text-five">
                           See Varieties
                         </button>
                       </Link>

@@ -28,17 +28,14 @@ export const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-between items-center font-DM1 md:p-16 lg:p-32">
+      <div className="flex flex-col md:flex-row justify-between items-center font-DM1 md:p-10 lg:p-32">
         <div className="md:w-2/3 p-4 md:pl-18 text-center">
           <h1 className="mb-5 tracking-wide text-4xl md:text-5xl font-bold text-five  md:text-left">
             Satisfy cravings,
             <br /> find tasty treats.
           </h1>
           <p className="mb-5 tracking-wide  md:text-left text-five md:w-3/4">
-            Discover a curated selection of delicious options designed to
-            delight every palate, whether you're craving something rich and
-            indulgent or a savory snack, our offerings are crafted for maximum
-            flavor and enjoyment.
+          Explore a selection of delicious treats crafted to satisfy every craving, from rich indulgences to savory snacks, all made for maximum flavor.
           </p>
           <Link to="/products">
             <button className="btn tracking-wide hover:font-medium font-DM1 hover:bg-five hover:text-four bg-four text-five border-five md:flex">

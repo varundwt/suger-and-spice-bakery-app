@@ -19,13 +19,7 @@ export default {
       DM2: ["Taviraj"],
       DM3: ["Playfair Display"],
     },
-    colors: {
-      purpleone: "#250026",
-      purpletwo: "#E2BFD9",
-      purplethree: "#C8A1E0",
-      purplefour: "#674188",
-      purplefive: "#A76A92",
-      purplelight: "#F7EFE5",
+    colors: {      
       one: "#333333",
       two:"#FFB2C7",
       three:"#F3BA9E",
