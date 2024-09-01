@@ -4,28 +4,92 @@ export const HeroSection = () => {
   return (
     <>
       <div
-        className="hero min-h-screen font-DM1"
+        className=" min-h-screen font-DM1 place-items-center grid w-full bg-cover bg-center pt-10 pb-10 md:pt-0 md:pb-0"
         style={{
-          backgroundImage: "url(/images/hero_background_1.jpg)",
+          backgroundColor: "#F3BA9E",
         }}
       >
-        <div className="hero-overlay bg-opacity-50"></div>
         <div className="hero-content text-neutral-content text-center">
-          <div className="max-w-md md:max-w-xl">
-            <h1 className="mb-5 tracking-wide text-4xl md:text-5xl font-bold text-purplelight">
+          <div className="max-w-md md:max-w-xl font-DM1">
+            <h1 className="mb-5 tracking-wide text-4xl md:text-5xl font-bold text-five">
               Crafting Sweet Moments,
               <br /> One Cake at a Time.
             </h1>
-            <p className="mb-5 tracking-wide text-purplelight">
+            <p className="mb-5 tracking-wide text-five">
               At Sugar and Spice, we craft every cake with love and care to make
               your moments truly special. Join us in creating memories that last
               a lifetime.
             </p>
             <Link to="/products/cakescatagory">
-              <button className="btn tracking-wide hover:font-medium font-semibold hover:bg-purpleone hover:text-purplelight bg-purplelight text-purpleone border-none">
+              <button className="btn tracking-wide hover:font-medium font-DM1 hover:bg-five hover:text-four bg-four text-five">
                 Find Your Cake
               </button>
             </Link>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row justify-between items-center font-DM1 md:p-16 lg:p-32">
+        <div className="md:w-2/3 p-4 md:pl-18 text-center">
+          <h1 className="mb-5 tracking-wide text-4xl md:text-5xl font-bold text-five  md:text-left">
+            Satisfy cravings,
+            <br /> find tasty treats.
+          </h1>
+          <p className="mb-5 tracking-wide  md:text-left text-five md:w-3/4">
+            Discover a curated selection of delicious options designed to
+            delight every palate, whether you're craving something rich and
+            indulgent or a savory snack, our offerings are crafted for maximum
+            flavor and enjoyment.
+          </p>
+          <Link to="/products">
+            <button className="btn tracking-wide hover:font-medium font-DM1 hover:bg-five hover:text-four bg-four text-five border-five md:flex">
+              Explore our Delicacies
+            </button>
+          </Link>
+        </div>
+        <div className="md:pr-18 m-2">
+          <div className="carousel rounded-box md:w-64 ">
+            <div className="carousel-item w-full">
+              <img
+                src="/images/01.jpg"
+                className="w-full"
+                alt="Tailwind CSS Carousel component"
+              />
+            </div>
+            <div className="carousel-item w-full">
+              <img
+                src="/images/02.jpg"
+                className="w-full"
+                alt="Tailwind CSS Carousel component"
+              />
+            </div>
+            <div className="carousel-item w-full">
+              <img
+                src="/images/03.jpg"
+                className="w-full"
+                alt="Tailwind CSS Carousel component"
+              />
+            </div>
+            <div className="carousel-item w-full">
+              <img
+                src="/images/04.jpg"
+                className="w-full"
+                alt="Tailwind CSS Carousel component"
+              />
+            </div>
+            <div className="carousel-item w-full">
+              <img
+                src="/images/05.jpg"
+                className="w-full"
+                alt="Tailwind CSS Carousel component"
+              />
+            </div>
+            <div className="carousel-item w-full">
+              <img
+                src="/images/06.jpg"
+                className="w-full"
+                alt="Tailwind CSS Carousel component"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -33,17 +97,17 @@ export const HeroSection = () => {
         <div className="hero-overlay bg-base-100"></div>
         <div className="hero-content text-center py-20">
           <div className="max-w-md md:max-w-2xl">
-            <h1 className="mb-5 text-3xl md:text-4xl font-bold tracking-wide">
+            <h1 className="mb-5 tracking-wide text-4xl md:text-5xl font-bold text-five">
               Celebrate Special Occasions
             </h1>
-            <p className="mb-5 text-sm md:text-md tracking-wide">
+            <p className="mb-5 tracking-wide text-five ">
               Celebrate your special moments at Sugar and Spice, where our cozy
               and charming venue sets the perfect backdrop for your gatherings.
               Whether it’s a birthday, anniversary, or any special occasion, let
               us help you create sweet memories in a warm and inviting
               atmosphere.
             </p>
-            <div className="flex flex-col md:flex-row gap-4 rounded-md">
+            <div className="flex flex-col md:flex-row gap-4 rounded-md text-five mb-5">
               <div className="my-2">
                 <p className="pb-2 font-bold tracking-wide">Anniversary</p>
                 <img
@@ -65,18 +129,18 @@ export const HeroSection = () => {
               to="https://maps.app.goo.gl/z5yZ5ma3eR9ydzPPA"
               target="_blank"
             >
-              <button className="btn tracking-wide hover:font-medium font-semibold hover:bg-purpleone hover:text-purplelight bg-purplelight text-purpleone border-none my-4">
+              <button className="btn tracking-wide hover:font-medium font-DM1 hover:bg-five hover:text-four bg-four text-five border-five my-4">
                 Find Our Location
               </button>
             </Link>
           </div>
         </div>
       </div>
-      <div className="px-1 pt-0 lg:px-20 font-DM1 py-20">
+      <div className="px-1 pt-0 lg:px-20 font-DM1 py-20 text-five">
         <h1 className="mb-5 text-3xl md:text-4xl font-bold tracking-wide text-center">
           Our Space View
         </h1>
-        <p className="mb-5 text-center text-sm md:text-md tracking-wide">
+        <p className="mb-5 text-center text-lg md:text-md tracking-wide">
           Explore the design and ambiance of our space through this curated
           collection of images.
         </p>

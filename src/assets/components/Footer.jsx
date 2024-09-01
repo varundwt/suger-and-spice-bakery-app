@@ -1,9 +1,9 @@
 export const Footer = () => {
   return (
     <>
-      <footer className="footer bg-neutral text-neutral-content p-10 font-DM1">
+      <footer className="footer bg-five text-three p-10 font-DM1">
         <aside>
-          <img src="/images/ss_logo.png" className="h-20" />
+          <img src="/images/ss_logo_footer.png" className="h-20" />
           <p>
             Sugar & Spice <br />
             Nearby Trimurti Chowk, Dwarahat - 263653

@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 export const Navbar = () => {
   return (
     <>
-      <div className="navbar bg-base-100 font-DM1 ">
+      <div className="navbar bg-three font-DM1">
         <div className="navbar-start">
           <div className="dropdown font-bold">
             <div
@@ -29,25 +29,25 @@ export const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow "
+              className="menu menu-sm dropdown-content bg-four text-five rounded-box z-[1] mt-3 w-52 p-2 shadow "
             >
               <Link to="/">
                 <li className="hover:bg-black hover:rounded-md">
-                  <a className="text-purpleone hover:bg-purpleone hover:rounded-md hover:text-purplelight">
+                  <a className="text-five hover:bg-three hover:text-five hover:rounded-md">
                     Home
                   </a>
                 </li>
               </Link>
               <Link to="/products">
                 <li className="hover:bg-black hover:rounded-md">
-                  <a className="text-purpleone hover:bg-purpleone hover:rounded-md hover:text-purplelight">
+                  <a className="text-five hover:bg-three hover:text-five hover:rounded-md">
                     Products
                   </a>
                 </li>
               </Link>
               <Link to="/about">
                 <li className="hover:bg-black hover:rounded-md">
-                  <a className="text-purpleone hover:bg-purpleone hover:rounded-md hover:text-purplelight">
+                  <a className="text-five hover:bg-three hover:text-five hover:rounded-md">
                     About
                   </a>
                 </li>
@@ -61,17 +61,17 @@ export const Navbar = () => {
         <div className="navbar-center hidden lg:flex font-bold">
           <ul className="menu menu-horizontal px-1 tracking-wide">
             <Link to="/">
-              <li className="text-md text-purpleone hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
+              <li className="text-md text-five hover:bg-three hover:rounded-xl hover:text-five">
                 <a>Home</a>
               </li>
             </Link>
             <Link to="/products">
-              <li className="text-purpleone hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
+              <li className="text-md text-five hover:bg-three hover:rounded-xl hover:text-five">
                 <a>Products</a>
               </li>
             </Link>
             <Link to="/about">
-              <li className="text-purpleone hover:bg-purplefive hover:rounded-xl hover:text-purplelight">
+              <li className="text-md text-five hover:bg-three hover:rounded-xl hover:text-five">
                 <a>About</a>
               </li>
             </Link>
@@ -79,7 +79,7 @@ export const Navbar = () => {
         </div>
         <div className="navbar-end font-DM3">
           <Link to="/contact">
-            <a className="btn tracking-wide hover:font-medium font-DM1 hover:bg-purpleone hover:text-purplelight bg-purplelight text-purpleone border-purplethree">
+            <a className="btn tracking-wide hover:font-medium font-DM1 hover:bg-five hover:text-four bg-four text-five">
               Contact Us
             </a>
           </Link>

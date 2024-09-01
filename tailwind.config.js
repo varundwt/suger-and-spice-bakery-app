@@ -26,11 +26,16 @@ export default {
       purplefour: "#674188",
       purplefive: "#A76A92",
       purplelight: "#F7EFE5",
+      one: "#333333",
+      two:"#FFB2C7",
+      three:"#F3BA9E",
+      four:"#FFFDF4",
+      five:"#481E14"
     },
   },
   variants: {},
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["valentine"],
+    themes: ["autumn"],
   },
 };
