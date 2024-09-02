@@ -38,7 +38,7 @@ export const HeroSection = () => {
           Explore a selection of delicious treats crafted to satisfy every craving, from rich indulgences to savory snacks, all made for maximum flavor.
           </p>
           <Link to="/products">
-            <button className="btn tracking-wide hover:font-medium font-DM1 hover:bg-five hover:text-four bg-four text-five border-five md:flex">
+            <button className="btn tracking-wide hover:font-medium font-DM1 hover:bg-five hover:text-four bg-four text-five border-five md:flex" onClick={() => window.scrollTo(0, 0)}>
               Explore our Delicacies
             </button>
           </Link>
