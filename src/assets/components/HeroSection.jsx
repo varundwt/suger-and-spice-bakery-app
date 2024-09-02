@@ -21,7 +21,10 @@ export const HeroSection = () => {
               a lifetime.
             </p>
             <Link to="/products/cakescatagory">
-              <button className="btn tracking-wide hover:font-medium font-DM1 hover:bg-five hover:text-four bg-four text-five" onClick={() => window.scrollTo(0, 0)}>
+              <button
+                className="btn tracking-wide hover:font-medium font-DM1 hover:bg-five hover:text-four bg-four text-five"
+                onClick={() => window.scrollTo(0, 0)}
+              >
                 Find Your Cake
               </button>
             </Link>
@@ -35,10 +38,15 @@ export const HeroSection = () => {
             <br /> find tasty treats.
           </h1>
           <p className="mb-5 tracking-wide  md:text-left text-five md:w-3/4">
-          Explore a selection of delicious treats crafted to satisfy every craving, from rich indulgences to savory snacks, all made for maximum flavor.
+            Explore a selection of delicious treats crafted to satisfy every
+            craving, from rich indulgences to savory snacks, all made for
+            maximum flavor.
           </p>
           <Link to="/products">
-            <button className="btn tracking-wide hover:font-medium font-DM1 hover:bg-five hover:text-four bg-four text-five border-five md:flex" onClick={() => window.scrollTo(0, 0)}>
+            <button
+              className="btn tracking-wide hover:font-medium font-DM1 hover:bg-five hover:text-four bg-four text-five border-five md:flex"
+              onClick={() => window.scrollTo(0, 0)}
+            >
               Explore our Delicacies
             </button>
           </Link>

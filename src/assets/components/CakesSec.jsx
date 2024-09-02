@@ -89,31 +89,29 @@ export const CakesSec = () => {
           </h1>
         </div>
         <div className="flex flex-wrap gap-2 justify-around my-3 md:justify-center md:gap-20 lg:gap-5 lg:mx-0 lg:px-2 md:py-5 lg:py-6">
-        {cakesType.map((item, i) => (
-          <div
-                  className="card glass md:w-72 lg:w-72 lg:mx-0 xl:w-96 m-1 text-four bg-five md:bg-three md:text-five hover:bg-five hover:text-four md:transition md:ease-in-out md:hover:-translate-y-1 md:hover:scale-110 md:duration-300 "
-                  key={i}
-                >
-                  <figure>
-                    <img
-                      src={item.cakeImage}
-                      alt="car!"
-                      className="p-2 rounded-3xl"
-                    />
-                  </figure>
-                  <div className="card-body ">
-                    <h2 className="card-title">{item.cakeTitle}</h2>
-                    <p>{item.description}</p>
-                    <div className="card-actions justify-end">
-                      
-                        <button className="btn tracking-wide hover:font-medium font-DM1 hover:bg-five hover:text-four bg-four text-five">
-                          Explore
-                        </button>
-                      
-                    </div>
-                  </div>
+          {cakesType.map((item, i) => (
+            <div
+              className="card glass md:w-72 lg:w-72 lg:mx-0 xl:w-96 m-1 text-four bg-five md:bg-three md:text-five hover:bg-five hover:text-four md:transition md:ease-in-out md:hover:-translate-y-1 md:hover:scale-110 md:duration-300 "
+              key={i}
+            >
+              <figure>
+                <img
+                  src={item.cakeImage}
+                  alt="cake-image"
+                  className="p-2 rounded-3xl"
+                />
+              </figure>
+              <div className="card-body ">
+                <h2 className="card-title">{item.cakeTitle}</h2>
+                <p>{item.description}</p>
+                <div className="card-actions justify-end">
+                  <button className="btn tracking-wide hover:font-medium font-DM1 hover:bg-five hover:text-four bg-four text-five">
+                    Explore
+                  </button>
                 </div>
-        ))}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </>
