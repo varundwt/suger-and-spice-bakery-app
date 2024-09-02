@@ -21,7 +21,7 @@ export const HeroSection = () => {
               a lifetime.
             </p>
             <Link to="/products/cakescatagory">
-              <button className="btn tracking-wide hover:font-medium font-DM1 hover:bg-five hover:text-four bg-four text-five">
+              <button className="btn tracking-wide hover:font-medium font-DM1 hover:bg-five hover:text-four bg-four text-five" onClick={() => window.scrollTo(0, 0)}>
                 Find Your Cake
               </button>
             </Link>

@@ -63,9 +63,9 @@ export const Products = () => {
         <div className="flex flex-wrap gap-2 justify-around my-3 md:justify-center md:gap-20 lg:gap-5 lg:mx-0 lg:px-2 md:py-5 lg:py-6">
           {productItems.map((item, i) => (
             <>
-              <Link to={item.buttonLink} className="">
+              <Link to={item.buttonLink} onClick={() => window.scrollTo(0, 0)}>
                 <div
-                  className="card glass md:w-72 lg:w-72 lg:mx-0 xl:w-96 m-1 text-four bg-five md:bg-three md:text-five hover:bg-five hover:text-four transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 "
+                  className="card glass md:w-72 lg:w-72 lg:mx-0 xl:w-96 m-1 text-four bg-five md:bg-three md:text-five hover:bg-five hover:text-four md:transition md:ease-in-out md:hover:-translate-y-1 md:hover:scale-110 md:duration-300 "
                   key={i}
                 >
                   <figure>
