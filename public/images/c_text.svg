@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <defs>
+    <clipPath id="clip-SPRK_default_preset_name_web_1920_2">
+      <rect width="1080" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="SPRK_default_preset_name_web_1920_2" data-name="SPRK_default_preset_name_web_1920 – 2" clip-path="url(#clip-SPRK_default_preset_name_web_1920_2)">
+    <g id="c_call" transform="translate(1056 -32)">
+      <path id="Path_1" data-name="Path 1" d="M0,0H48V48H0Z" fill="none"/>
+      <path id="Path_2" data-name="Path 2" d="M13.25,21.59A30.12,30.12,0,0,0,26.43,34.76l4.4-4.41a2.007,2.007,0,0,1,2.03-.49A22.767,22.767,0,0,0,40,31a1.993,1.993,0,0,1,2,2v7a1.993,1.993,0,0,1-2,2A34,34,0,0,1,6,8,2,2,0,0,1,8,6h7a1.993,1.993,0,0,1,2,2,22.767,22.767,0,0,0,1.14,7.14,2.007,2.007,0,0,1-.49,2.03Z"/>
+    </g>
+    <g id="icons" transform="translate(0 132)">
+      <path id="email" d="M900,3H180C81,3,0,84,0,183V633c0,99,81,180,180,180H900c99,0,180-81,180-180V183C1080,84,999,3,900,3Zm72,261L616.5,502.5C594,516,567,525,540,525s-54-9-76.5-22.5L108,264c-18-13.5-22.5-40.5-9-63,13.5-18,40.5-22.5,63-9L517.5,430.5c13.5,9,36,9,49.5,0L922.5,192c22.5-13.5,49.5-9,63,13.5C994.5,223.5,990,250.5,972,264Z" transform="translate(0 0)" fill="#481e14"/>
+    </g>
+  </g>
+</svg>
