@@ -4,7 +4,7 @@ export const HeroSection = () => {
   return (
     <>
       <div
-        className=" min-h-screen font-DM1 place-items-center grid w-full bg-cover bg-center pt-10 pb-10 md:pt-0 md:pb-0"
+        className=" min-h-screen font-DM1 place-items-center grid w-full bg-cover bg-center pt-5 pb-5 md:pt-0 md:pb-0"
         style={{
           backgroundColor: "#F3BA9E",
         }}
@@ -31,7 +31,7 @@ export const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-between items-center font-DM1 md:p-10 lg:p-32">
+      <div className="flex flex-col md:flex-row justify-between items-center font-DM1 pt-5 md:p-10 lg:p-32">
         <div className="md:w-2/3 p-4 md:pl-18 text-center">
           <h1 className="mb-5 tracking-wide text-4xl md:text-5xl font-bold text-five  md:text-left">
             Satisfy cravings,
@@ -100,7 +100,7 @@ export const HeroSection = () => {
       </div>
       <div className="hero max-h-md font-DM1">
         <div className="hero-overlay bg-base-100"></div>
-        <div className="hero-content text-center py-20">
+        <div className="hero-content text-center py-10 ">
           <div className="max-w-md md:max-w-2xl">
             <h1 className="mb-5 tracking-wide text-4xl md:text-5xl font-bold text-five">
               Celebrate Special Occasions
